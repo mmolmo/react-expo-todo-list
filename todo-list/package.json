@@ -4,8 +4,8 @@
   "homepage": "https://mmolmo.github.io/react-expo-todo-list",
   "main": "index.js",
   "scripts": {
-    "predeploy": "expo export --output-dir web-build",
-    "deploy": "gh-pages -d web-build",
+    "predeploy": "expo export --output-dir ../docs",
+    "deploy": "gh-pages -d ../docs",
     "start": "expo start",
     "android": "expo start --android",
     "ios": "expo start --ios",
