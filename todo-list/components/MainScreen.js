@@ -21,7 +21,7 @@ const toggleCheckbox = (key) => {
       task.key === key ? { ...task, completed: !task.completed } : task
     )
   );  // Log the updated list to verify
-  // console.log("Updated Task List:", taskList);
+  console.log("Task List:", taskList);
 };
 
 const handleDeleteTask = (key) => {
